@@ -1,4 +1,4 @@
-import java.awt.desktop.AboutEvent;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HarmonikOrtalama {
@@ -17,7 +17,7 @@ public class HarmonikOrtalama {
         }
         harmonikOrt = array.length / harmonikSeri;
 
-        System.out.println("Girilen " + n + " sayının : \n" +
+        System.out.println("Oluşturulan dizi: " + Arrays.toString(array) + "\nGirilen " + n + " sayının : \n" +
                 "Harmonik serisi : " + harmonikSeri +
                 "\nHarmonik Ortalaması : " + harmonikOrt);
     }
